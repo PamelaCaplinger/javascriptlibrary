@@ -76,12 +76,17 @@ CHALLANGE
 -WRITE A FOR IN LOOP THAT COLPITALIZES ITHE FIRST LETTER OF A NAME,
 AND LOWERCASES THE REST OF THE NAME 
 */
-let name = 'jUstiN AhmAnN'
+var name1 = 'jUstiN AhmAnN'
 
-for(var i = 0; i < name.length; i++){
-
+for(var a = 0; a < name.length; a++){
+    if(name.length[a] === 0){
+        name.length[a].toUpperCase();
+    } else{
+        name.length[a].toLowerCase();
+    }
 }
 
+console.log(name);
 
 
 

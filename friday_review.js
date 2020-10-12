@@ -8,15 +8,13 @@ AND LOWERCASES THE REST OF THE NAME
 */
 
 let name = "pumperKickLe"; //sets name to a string 
-console.log(name[6])
-let new_name='';
-for (letter in name){
-    if (letter==0){
-        new_name += name[letter].toUpperCase();
+console.log(name[6])//because the start begins at 0 the 6 represents the K
+let new_name = '';//this is an empty string
+for (letter in name){//this sets up the loops and tells it how many times to go through the name
+    if (letter==0){//checks if letter = 0 because the letter var is a number var
+        new_name += name[letter].toUpperCase();//add new name to new name with the first letter of name uppercase
     }else{
-        new_name += name[letter].toLowerCase();
+        new_name += name[letter].toLowerCase();//add new name to new name with the rest of name lowercase
     }
-    // console.log(letter);
-//console.log(name[letter]);
 }
-console.log(new_name);
+console.log(new_name);//this displays new name
